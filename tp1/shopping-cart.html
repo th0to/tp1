@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>OnlineShop - Panier</title>
+</head>
+<body>
+  <div class="forhead">
+    <img src="assets/img/logo.svg" alt="logo">
+    <div class="link">
+      <a href="index.html">Acceuil</a>
+      <a href="products.html">Produits</a>
+      <a href="contact.html">Contacts</a>
+      <a href="shopping-cart.html">Panier</a>
+    </div>
+  </div>
+
+  <div id="panier">
+    <h2>Panier :</h2>
+
+    <table style="width:100%">
+      <tr>
+        <th></th>
+        <th>Nom</th>
+        <th>Prix Unitaire</th>
+        <th>Qauntité</th>
+        <th>Prix</th>
+      </tr>
+
+      <tr>
+        <td>
+          <button>X</button>
+        </td>
+        <td>
+          <a href="product.html">Apple-Tv</a>
+        </td>
+        <td>249 $</td>
+        <td>
+          <form>
+            <input type="number" id="quantity" name="quantity" min="1" value="1" step="1" size="2">
+            <input type="submit" value="Submit">
+          </form>
+        </td>
+        <td>249$</td>
+      </tr>
+      <!--2 autres produits-->
+    </table>
+
+    <p>Total : xxxx$</p>
+
+    <div><!--identifier la div-->
+      <button>Vider le panier</button>
+      <a href="order.html">Commander</a>
+    </div>
+  </div>
+</body>
+</html>
