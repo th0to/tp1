@@ -1,21 +1,29 @@
 <!DOCTYPE html>
 <html lang="fr">
+<!--Thomas Marinier 20269869 - Nesma-Dalel Medjber 20280609 - Yanis Chalel 20252292-->
+
 <head>
   <meta charset="UTF-8">
   <title>OnlineShop - Panier</title>
+  
+  <div id="logo">
+    <a href="test index.html">
+      <img src="./assets/img/logo.svg" alt="Logo de OnlineShop" width="300" height="100"> 
+    </a>
+  </div>
 </head>
-<body>
-  <header>
-    <div id="logo">
-      <img src="assets/img/logo.svg" alt="logo">
-    </div>
 
-    <div class="link">
-      <a href="index.html">Acceuil</a><br>
-      <a href="products.html">Produits</a><br>
-      <a href="contact.html">Contacts</a><br>
-      <a href="shopping-cart.html">Panier</a>
-    </div>
+<body>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="product.html">Produits</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="shopping-cart.html">Panier</a></li>
+      </ul> <hr /> 
+    </nav> <br> <br> <br> <br>
   </header>
 
   <div id="panier">
@@ -30,59 +38,74 @@
         <th>Prix</th>
       </tr>
 
-      <tr>
-        <td>
-          <button>X</button>
-        </td>
-        <td>
-          <a href="product.html">Apple-Tv</a>
-        </td>
-        <td>249 $</td>
-        <td>
-          <form method="post">
-            <input type="number" id="quantity" name="quantity" min="1" value="1" step="1" size="2">
-            <input type="submit" value="Submit">
-          </form>
-        </td>
-        <td>249$</td>
-      </tr>
 
       <tr>
         <td>
           <button>X</button>
         </td>
+
         <td>
-          <a href="product.html">Xbox</a>
+          <a href="product.html">Apple-Tv</a>
         </td>
-        <td>560 $</td>
+
+        <td>249 $</td>
+
         <td>
           <form method="post">
             <input type="number" id="quantity" name="quantity" min="1" value="1" step="1" size="2">
             <input type="submit" value="Submit">
           </form>
         </td>
+
+        <td>249$</td>
+      </tr>
+
+    
+      <tr>
+        <td>
+          <button>X</button>
+        </td>
+
+        <td>
+          <a href="product.html">Xbox</a>
+        </td>
+
+        <td>560 $</td>
+
+        <td>
+          <form method="post">
+            <input type="number" id="quantity" name="quantity" min="1" value="1" step="1" size="2">
+            <input type="submit" value="Submit">
+          </form>
+        </td>
+
         <td>560$</td>
       </tr>
+      
       
       <tr>
         <td>
           <button>X</button>
         </td>
+
         <td>
-          <a href="product.html">Ordinateur</a>
+          <a href="product.html">Ordinateur ASUS</a>
         </td>
-        <td>720 $</td>
+
+        <td>1245.25 $</td>
+
         <td>
           <form method="post">
             <input type="number" id="quantity" name="quantity" min="1" value="1" step="1" size="2">
             <input type="submit" value="Submit">
           </form>
         </td>
-        <td>720$</td>
+
+        <td>1245.25 $</td>
       </tr>
     </table>
 
-    <p>Total : 1529$</p>
+    <p>Total : 2054.25 $</p>
 
     <div><!--identifier la div-->
       <button>Vider le panier</button>
@@ -93,7 +116,7 @@
   <footer>
     <p>Thomas Marinier 20269869</p>
     <p>Nesma-Dalel Medjber 20280609</p>
-    <p>yanis Chalel 20252292</p>
+    <p>Yanis Chalel 20252292</p>
     <p>&copy; 2023 OnlineShop - Tous droits réservés</p>
   </footer>
 </body>

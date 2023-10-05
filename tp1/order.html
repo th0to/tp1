@@ -1,21 +1,29 @@
 <!DOCTYPE html>
 <html lang="fr">
+<!--Thomas Marinier 20269869 - Nesma-Dalel Medjber 20280609 - Yanis Chalel 20252292-->
+
 <head>
   <meta charset="UTF-8">
   <title>OnlineShop - Commande</title>
+  
+  <div id="logo">
+    <a href="test index.html">
+      <img src="./assets/img/logo.svg" alt="Logo de OnlineShop" width="300" height="100"> 
+    </a>
+  </div>
 </head>
-<body>
-  <header>
-    <div id="logo">
-      <img src="assets/img/logo.svg" alt="logo">
-    </div>
 
-    <div class="link">
-      <a href="index.html">Acceuil</a><br>
-      <a href="products.html">Produits</a><br>
-      <a href="contact.html">Contacts</a><br>
-      <a href="shopping-cart.html">Panier</a>
-    </div>
+<body>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="product.html">Produits</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="shopping-cart.html">Panier</a></li>
+      </ul> <hr /> 
+    </nav> <br> <br> <br> <br>
   </header>
 
   <form action="confirmation.html" method="post">
@@ -32,9 +40,7 @@
         <div id="contact">
           <label for="email">Adresse courriel :</label>
           <input type="email" id="email" name="email" required>
-        </div>
 
-        <div>
           <label for="phone">Numéro de téléphone :</label>
           <input type="tel" id="phone" name="phone" required>
         </div>
@@ -54,13 +60,13 @@
     </section>
 
     <input type="submit" value="Payer">
-</form>
+  </form>
 
 
   <footer>
     <p>Thomas Marinier 20269869</p>
     <p>Nesma-Dalel Medjber 20280609</p>
-    <p>yanis Chalel 20252292</p>
+    <p>Yanis Chalel 20252292</p>
     <p>&copy; 2023 OnlineShop - Tous droits réservés</p>
   </footer>
 </body>
